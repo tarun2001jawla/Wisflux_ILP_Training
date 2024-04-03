@@ -1,0 +1,49 @@
+div {
+    width:30%;
+    height:150px;
+ }
+
+ /*Selectors in css */
+ #para1 {
+    text-align: center;
+    color: red;
+  }
+
+  .center {
+    text-align: center;
+    color: red;
+  }
+/*css for the form */
+form {
+    max-width: 300px;
+    margin: 20px auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
