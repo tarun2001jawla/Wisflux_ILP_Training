@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: blue;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #hoverDiv {
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 20px;
+  }
+  
+  #outputText {
+    margin-top: 20px;
+  }
+  
