@@ -1,0 +1,69 @@
+/*Element Selector*/
+
+h1 {
+    
+    color: red;
+}
+
+/* CSS for h2 element */
+h2 {
+    color: blue;
+    font-size: 28px;
+}
+
+/* CSS for p element */
+p {
+    color: green;
+    font-size: 18px;
+}
+
+/* CSS for class element */
+.div {
+    background-color: yellow;
+    padding: 20px;
+    border: 2px solid orange;
+    margin-top: 20px;
+}
+
+/* CSS for element with a id  */
+#id-element {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+ /* Universal Selector - Applies to all elements */
+ * {
+    margin: 0;
+    padding: 0;
+    background: pink;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+ /* Grouping selectors to apply same styles on h1 and h2 */
+ h1, h2{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+ /* child selector */
+
+ div>p{
+    background-color: red;
+ }
+
+
+ 
+ /* Adjacent Sibling Selector (+) */
+
+ div+p{
+    background-color: yellow;
+ }
+ 
+  /* General Sibling Selector  */
+
+  div~p{
+    background-color: blue;
+  }

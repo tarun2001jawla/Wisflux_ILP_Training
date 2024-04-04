@@ -1,0 +1,42 @@
+
+/*Cascade*/
+h2 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+/*Specificity*/
+
+/* 
+p{
+    color: pink;
+}
+
+.myPara{
+    color: green;
+} */
+
+
+/*Inheritance*/
+
+body{
+    color: red;
+}
+
+span {
+    color: black;
+  }
+
+  ul#summer-drinks li {
+    font-weight: normal;
+    font-size: 12px;
+    color: black;
+ }
+ .fav{
+    color: red !important ;
+    font: 400 !important;
+    text-decoration:dashed !important ;
+ }
