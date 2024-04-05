@@ -38,4 +38,4 @@ const shoppingCart = [
             return acc+curr.price;
   },initialValue);
 
-  console.log(totalBill)
+  console.log(totalBill);
