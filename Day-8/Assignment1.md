@@ -1,4 +1,4 @@
-# ASsignment-1 Day-8
+# Assignment-1 Day-8
 
 ## 1.. What are the basic data types in TypeScript?
 
