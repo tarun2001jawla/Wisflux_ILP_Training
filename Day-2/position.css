@@ -1,0 +1,32 @@
+.parent{
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+ position: relative;
+ height: 200vh;
+}
+
+.child-one{
+    position: fixed;
+    top: 15px;
+    background-color: #ff6347; 
+    
+   
+}
+
+
+
+.child {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #333;
+}
+
+.child-two {
+    background-color: #87ceeb; 
+}
+
+.child-three {
+    background-color: #90ee90; 
+}

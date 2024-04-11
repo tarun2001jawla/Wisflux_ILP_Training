@@ -1,0 +1,25 @@
+div {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+  }
+
+  div:hover {
+    background-color: blue;
+  }
+
+  #p2 {
+    display: none;
+    background-color: red;
+    padding: 20px;
+  }
+  div:hover #p2 {
+    display: block;
+  }
+
+  /*The :first-child Pseudo-class*/
+
+  p:first-child {
+    color: magenta;
+  } 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation Using JavaScript</title>
+    <link rel="stylesheet" href="Assignment2.css" />
+  </head>
+  <body>
+    <h1>Assignment-2 Day-8</h1>
+
+    <div class="images">
+      <div class="image1">
+        <img src="./media/images/cartoon-character-with-fashion-bag.jpg" />
+      </div>
+      <div class="image2">
+        <img
+          src="./media/images/fashion-boy-with-yellow-jacket-blue-pants.jpg"
+        />
+      </div>
+      <div class="image3">
+        <img src="./media/images/fashion-little-boy.jpg" />
+      </div>
+    </div>
+
+    <script>
+      const images = document.querySelectorAll("img");
+
+      function animateImages(image, animation, animationConfig) {
+        return new Promise((resolve, reject) => {
+          const animationPromise = image.animate(animation, animationConfig);
+          animationPromise.finished.then(() => {
+            resolve();
+          });
+        });
+      }
+
+      const animationConfig = {
+        duration: 2000,
+        iterations: 1,
+        fill: "forwards",
+        easing: "ease-in-out",
+      };
+
+      async function animateImagesSequentially() {
+        for (let i = 0; i < images.length; i++) {
+          await animateImages(
+            images[i],
+            { transform: "rotate(360deg) scale(1.2)" },
+            animationConfig
+          );
+        }
+      }
+
+      animateImagesSequentially();
+    </script>
+  </body>
+</html>

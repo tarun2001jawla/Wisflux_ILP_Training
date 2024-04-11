@@ -1,0 +1,54 @@
+.flexbox-container{
+    display: flex;
+    background-color: yellow;
+    justify-content: flex-start;
+    
+   
+   flex-flow: row wrap;
+}
+
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid red;
+    background-color: antiquewhite;
+}
+
+.flexbox-item1{
+    min-height: 100px;
+}
+
+.flexbox-item2{
+    min-height: 200px;
+}
+
+.flexbox-item3{
+    min-height: 300px;
+}
+.flexbox-item4{
+    min-height: 400px;
+}
+.flexbox-item5{
+    min-height: 500px;
+}
+.flexbox-item6{
+    min-height: 600px;
+}
+.flexbox-item7{
+    min-height:700px;
+}
+.flexbox-item8{
+    min-height: 800px;
+}
+.flexbox-item9{
+    min-height: 900px;
+}
+.flexbox-item10{
+    min-height: 1000px;
+}
+.flexbox-item11{
+    min-height: 1100px;
+}
+.flexbox-item12{
+    min-height: 0px;
+}
