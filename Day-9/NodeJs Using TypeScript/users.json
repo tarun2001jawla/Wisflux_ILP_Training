@@ -1,0 +1,32 @@
+[
+  {
+    "name": "John Doe",
+    "age": 30,
+    "email": "john@example.com",
+    "gender": "Male"
+  },
+  {
+    "name": "Jane Smith",
+    "age": 25,
+    "email": "jane@example.com",
+    "gender": "Female"
+  },
+  {
+    "name": "tarun jawla",
+    "age": 22,
+    "email": "tarunjawla2@gmail.com",
+    "gender": "Male"
+  },
+  {
+    "name": "Priya Patel",
+    "age": 28,
+    "email": "priya.patel@example.com",
+    "gender": "Female"
+  },
+  {
+    "name": "Priya Patel2",
+    "age": 28,
+    "email": "priya.patel@example.coms",
+    "gender": "Female"
+  }
+]
