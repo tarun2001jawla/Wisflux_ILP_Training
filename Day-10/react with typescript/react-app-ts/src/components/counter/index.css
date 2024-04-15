@@ -1,0 +1,42 @@
+/* styles.css */
+
+.counter-container {
+    text-align: center;
+  }
+  
+  .counter-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .counter-container button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .counter-container button.increment {
+    background-color: #28a745; /* Green background color */
+    color: #fff;
+  }
+  
+  .counter-container button.decrement {
+    background-color: #dc3545; /* Red background color */
+    color: #fff;
+  }
+  
+  .counter-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .counter-container button.increment:hover {
+    background-color: #218838; /* Darker green color on hover */
+  }
+  
+  .counter-container button.decrement:hover {
+    background-color: #c82333; /* Darker red color on hover */
+  }
+  
